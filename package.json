@@ -1,0 +1,27 @@
+{
+  "name": "my-swagger-docs-sumit-api-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumasumit/sumit-swagger-docs-api-v1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumasumit/sumit-swagger-docs-api-v1/issues"
+  },
+  "homepage": "https://github.com/kumasumit/sumit-swagger-docs-api-v1#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "swagger-ui-express": "^4.6.0",
+    "yamljs": "^0.3.0"
+  }
+}
